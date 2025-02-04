@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Online Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>🎯 Fun Online Quiz</h1>
+        <p id="progress"></p>
+        <div id="quiz-content">
+            <div id="question"></div>
+            <div id="options"></div>
+            <div class="btn-container">
+                <button id="prev-btn" onclick="prevQuestion()" disabled>⬅️ Back</button>
+                <button id="next-btn" onclick="nextQuestion()" disabled>Next ➡️</button>
+            </div>
+        </div>
+        <div id="result" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
